@@ -34,6 +34,8 @@ spec:
               value: "3"
             - name: ADVERTISED_HOSTNAME
               value: "kafka-3"
+            - name: ZOOKEEPER_CONNECT
+              value: "zookeeper:2181"
           ports:
             - containerPort: 9092
           volumeMounts:
