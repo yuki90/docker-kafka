@@ -16,6 +16,7 @@ too, take a look here: https://github.com/UKHomeOffice/docker-zookeeper.
 * `ADVERTISED_HOSTNAME` - what address to advertise to other brokers and
   producers/consumers. Default: `unset`. If `unset`, Kafka uses the hostname.
 * `NUM_PARTITIONS` - Number of partitions by default. Default: `1`.
+* `DEFAULT_REPLICATION_FACTOR` - Default replication factor. Default: `unset`.
 
 
 ### Deployment
