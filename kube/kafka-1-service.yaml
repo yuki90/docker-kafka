@@ -10,6 +10,7 @@ metadata:
 spec:
   # type: ClusterIP
   # clusterIP: 10.200.10.41
+  type: LoadBalancer
   ports:
     - name: broker
       port: 9092
